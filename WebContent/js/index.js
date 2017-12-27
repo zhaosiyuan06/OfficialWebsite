@@ -3,14 +3,17 @@
  */
 $(function () {
 //   导航栏
-    $('.header_box span').on('mouseenter mouseleave', function () {
+    $('.header_box span').on('mouseenter mouseleave', function (e) {
         $(this).find('ul').slideToggle()
+        e.preventDefault();
     })
     //主营业务
-    $('.con1').on("mouseenter mouseleave", function () {
-        $(this).find('.con_box2').slideToggle()
-
-    })
+    // $('.con1').on("mouseenter", function(){
+    //     $(this).find('.con_box2').slideDown()
+    // })
+    // $('.con1').on("mouseleave", function(){
+    //     $(this).find('.con_box2').slideUp()
+    // })
     //监听鼠标滚动，设置导航栏背景色
     $(window).scroll(function() {
         var s =$(window).scrollTop();
@@ -21,27 +24,14 @@ $(function () {
             $('.top-header').removeClass('colors');
         }
     })
-
-//    面包屑下拉框
-    $('.mianbaoxie').on('click', function () {
-        $('.media ul').slideToggle();
-    })
-    $(".media ul li").on("click",function(){
-        $(this).find("img").addClass("img_animate")
-        $(this).find('div').slideToggle()
-    })
-
-
-    $('#contact').on('click',function(){
-        location.href = "contact.html"
-    })
-    $('#product').on('click',function(){
-        location.href = "products.html"
-    })
-    $('#yewus').on('click',function(){
-        location.href = "index.html"
-    })
-    $('#jianjie').on('click',function(){
-        location.href = "information.html"
+$(".video_zhezhao img").on("click",function(){
+    $(".video_zhezhao").css("display","none")
+    $(".videoplay_Box video")[0].pause()
+})
+    $(".shop_box  .shop_module .col-md-8  .zhe img").on("click",function(){
+        $(".video_zhezhao").css("display","block")
+        var dataSrc=$(this).attr("data-src");
+        $(".videoplay_Box video").attr("src",dataSrc)
+        $(".videoplay_Box video")[0].play()
     })
 })
