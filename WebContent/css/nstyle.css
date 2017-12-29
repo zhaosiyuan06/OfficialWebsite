@@ -1374,6 +1374,7 @@ img {
     width: 100%;
     height: 800px;
     border-top: 1px solid #ccc;
+    margin-bottom: 100px;
 }
 .shop_box{
     margin-bottom: 50px;
@@ -1430,13 +1431,13 @@ img {
 
 .shop_box  h4{
     text-align: center;
-    line-height: 120px;
+  padding: 70px 0 50px;
     margin: 0 auto;
     color: #666;
-    font-size: 28px;
+    font-size: 24px;
 }
 .shop_box  .shop_module .col-md-4{
-margin: 0;
+    margin: 0;
     padding: 0;
     border: 1px solid #ccc;
 }
@@ -1447,12 +1448,12 @@ margin: 0;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
 }
 .shop_box  .shop_module .col-md-4 p{
     padding: 0 10px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
     text-align: left;
     margin: 0 0 7px;
 }
@@ -1513,7 +1514,9 @@ margin: 0;
     padding: 5px;
     cursor: pointer;
 }
-
+.cha_xiang:hover{
+    color: #00b0ff!important;
+}
 .video_zhezhao .videoplay_Box {
     width: 900px;
     height: 500px;
@@ -1523,6 +1526,64 @@ margin: 0;
     margin-left: -450px;
     margin-top: -250px;
 }
+.service_box{
+    width: 100%;
+    /*padding: 50px 0px;*/
+    background: #22a7d9;
+}
+.service_box h2{
+    text-align: center;
+    padding: 70px 0 50px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 24px;
+}
+.service_box  .container .col-md-12  ul.first{
+    background: palegoldenrod;
+    width: 200px;
+}
+.service_box  .container .col-md-12  ul.first li{
+    padding: 10px;
+}
+.service_box  .container .col-md-12  ul.first li:hover{
+    background: #ffffff;
+}
+.service_box  .container .col-md-12 .first,.service_box  .container .col-md-12 .second,.service_box  .container .col-md-12  .second .third{
+    float: left;
+}
+.service_box  .container .col-md-12 .second{
+    background:pink;
+    width: 200px;
+}
+.service_box  .container .col-md-12 .second ul{
+    /*padding: 10px;*/
+    display: none;
+}
+.service_box  .container .col-md-12 .second ul li{
+    line-height: 24px;
+    padding: 10px;
+}
+.service_box  .container .col-md-12 .second ul li:hover{
+    background: #ffffff;
+}
+.service_box  .container .col-md-12  ul.first  li{
+    line-height: 24px;
+    text-align: left;
+}
+.service_box  .container .col-md-12 .third{
+    background: gray;
+    float: left;
+    width: 200px;
+}
+.service_box  .container .col-md-12  .third ul{
+    display: none;
+}
+.service_box  .container .col-md-12  .third ul li{
+    padding: 10px;
+}
+.service_box  .container .col-md-12  .third ul li:hover{
+    background: #ffffff;
+}
 .yewu_content {
     width: 65%;
     height: 100%;
@@ -1531,16 +1592,17 @@ margin: 0;
 
 .yewu_content .item {
     width: 100%;
-    height: 100px;
+    /*height: 100px;*/
     position: relative;
 }
 
 .yewu_content .item h2 {
     text-align: center;
-    line-height: 120px;
+    /*line-height: 120px;*/
+    padding: 70px 0 50px;
     margin: 0 auto;
     color: #666;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .yewu_content .yewu-bottom {
@@ -2382,7 +2444,9 @@ margin: 0;
     float: left;
     margin-right: 5px;
 }
-
+.active{
+    display: block!important;
+}
 @media screen and (max-width: 1515px) {
     .yewu_box .yewu_content .yewu-bottom .con1 .con_box1 .yewu_img .img_box {
         width: 36%;

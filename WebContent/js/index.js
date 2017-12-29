@@ -34,4 +34,21 @@ $(".video_zhezhao img").on("click",function(){
         $(".videoplay_Box video").attr("src",dataSrc)
         $(".videoplay_Box video")[0].play()
     })
+
+
+//    软件与服务
+    function xuan(TabBox,lis){
+        $(TabBox).on("mouseenter",function(){
+            var index =$(this).index();
+            $(lis).removeClass("active")
+            $(lis).eq(index).addClass("active").siblings().removeClass("active");
+        })
+        // $(TabBox).on("mouseleave",function(){
+        //     var index =$(this).index();
+        //     $(lis).eq(index).removeClass("active")
+        // })
+    }
+    xuan(".first li",".second ul")
+    xuan(".second ul li",".third ul")
+
 })
