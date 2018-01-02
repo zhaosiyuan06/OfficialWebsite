@@ -1528,7 +1528,7 @@ img {
 }
 .service_box{
     width: 100%;
-    /*padding: 50px 0px;*/
+    padding-bottom: 30px;
     background: #22a7d9;
 }
 .service_box h2{
@@ -1538,58 +1538,200 @@ img {
     color: #fff;
     font-size: 24px;
 }
-.service_box  .container .col-md-12  ul.first{
-    background: palegoldenrod;
-    width: 200px;
+.service_box  .first  span,.service_box h4{
+    line-height: 20px;
+    letter-spacing: 2px;
 }
-.service_box  .container .col-md-12  ul.first li{
-    padding: 10px;
+.service_box  .first .lei{
+    margin-left: 20px;
+    /*color: #666;*/
 }
-.service_box  .container .col-md-12  ul.first li:hover{
-    background: #ffffff;
+.service_box h4{
+    color: #ffffff;
+    font-weight: 600;
 }
-.service_box  .container .col-md-12 .first,.service_box  .container .col-md-12 .second,.service_box  .container .col-md-12  .second .third{
+.service_box  .first{
+    width: 50%;
     float: left;
 }
-.service_box  .container .col-md-12 .second{
-    background:pink;
-    width: 200px;
-}
-.service_box  .container .col-md-12 .second ul{
-    /*padding: 10px;*/
-    display: none;
-}
-.service_box  .container .col-md-12 .second ul li{
+.service_box  .first  span a{
+    color: #fff;
     line-height: 24px;
-    padding: 10px;
+    letter-spacing: 2px;
 }
-.service_box  .container .col-md-12 .second ul li:hover{
-    background: #ffffff;
+.service_box  .first .title{
+    /*font-weight: 600;*/
+    font-size: 14px;
+    line-height: 20px;
+    /*font-weight: bold;*/
+    /*color: #666;*/
 }
-.service_box  .container .col-md-12  ul.first  li{
-    line-height: 24px;
-    text-align: left;
+.service_box  .first .title a{
+    color: #101010;
 }
-.service_box  .container .col-md-12 .third{
-    background: gray;
-    float: left;
-    width: 200px;
+.service_box  .first  span.ntn a:nth-child(3){
+    margin-left: 104px;
 }
-.service_box  .container .col-md-12  .third ul{
-    display: none;
+.service_box  .first  span.ntn a:nth-child(5){
+    margin-left: 104px;
 }
-.service_box  .container .col-md-12  .third ul li{
-    padding: 10px;
+.service_box  .first  span.ntn a:nth-child(7){
+    margin-left: 104px;
 }
-.service_box  .container .col-md-12  .third ul li:hover{
-    background: #ffffff;
+.service_box  .first  span.ntn a:nth-child(9){
+    margin-left: 104px;
+}
+.service_box  .first  span.ntn a:nth-child(11){
+    margin-left: 104px;
+}
+.service_box  .first  span.ntn a:nth-child(13){
+    margin-left: 104px;
+}
+.service_box  .first  span.ntn a{
+    display: inline-block;
+    width: 400px;
+}
+.service_box  .first  span a:hover{
+    text-decoration: none;
 }
 .yewu_content {
     width: 65%;
     height: 100%;
     margin: 0 auto;
 }
+.sale_box{
+    min-height: 800px;
+}
+.sale_box h4{
+    text-align: center;
+    padding: 50px 0;
+    color: #666;
+    font-size: 24px;
+}
+.sale_box .container .col-md-3{
+    margin: 16px 0;
+}
+.sale_box .container .col-md-3 .sellBox{
+    border: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+.sale_box .container .col-md-3 .sellBox h5{
+    text-align: center;
+    font-weight: 600;
+}
+.sale_box .container .col-md-3 .sellBox  p{
+    padding: 0 10px;
+}
+.sale_box .container   p.inform{
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+.sale_box .container .col-md-3 .sellBox .button_box{
+    width: 100%;
+    height: 40px;
+}
+.sale_box .container .col-md-3 .sellBox .button_box div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+}
+.sale_box .container .col-md-3 .sellBox .button_box div:nth-child(1){
+    text-align: left;
+    padding-left: 10px;
+}
+.sale_box .container .col-md-3 .sellBox .button_box div:nth-child(2){
+    text-align:right;
+    padding-right: 20px;
+}
 
+.sale_box .container .col-md-3 img{
+    width: 100%;
+    float: left;
+}
+.top_box{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #666;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background: #ffffff;
+    z-index: 55;
+}
+.position_top{
+    top: 0!important;
+}
+.top_box .container .col-md-12 span{
+    width: 70px;
+    border: 1px solid #18a3fa;
+    color: #18a3fa;
+    border-radius: 15px;
+    padding: 8px 5px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+
+}
+.top_box .container .col-md-12 div{
+    font-size: 22px;
+    float: left;
+}
+.sale_sec_box{
+    width: 100%;
+    /*background: pink;*/
+    padding-top: 100px;
+    min-height:800px;
+}
+
+.sale_sec_box .col-md-4 img{
+
+  margin: 0 auto;
+    width: 130px;
+    margin-bottom: 30px;
+}
+.sale_sec_box .col-md-4 span{
+    line-height: 30px;
+    color: #696969;
+    font-size: 14px;
+}
+.sale_sec_box .col-md-8 p{
+    text-align: left;
+    font-size: 15px;
+    color: #343434;
+    letter-spacing: 1px;
+}
+.sale_sec_box .col-md-8 h1{
+margin-top: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.sale_sec_box .col-md-8 span{
+    padding: 10px 20px;
+    color: #00b0ff;
+    font-size: 14px;
+    margin-right: 20px;
+    border-radius:20px;
+cursor: pointer;
+}
+.spans{
+    border: 1px solid #ccc;
+    color: #101010!important;
+    font-weight: 600;
+}
+.sale_sec_box .col-md-8 button{
+    font-size: 16px;
+    display: block;
+    margin: 50px 10px;
+    padding: 10px 25px;
+    background:#00b0ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
 .yewu_content .item {
     width: 100%;
     /*height: 100px;*/
@@ -2683,6 +2825,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .sale_sec_box .col-md-4{
+        text-align: center;
+    }
     .video_zhezhao .videoplay_Box{
         width: 100%;
         height: 500px;
@@ -2705,6 +2850,10 @@ img {
     }
 }
 @media screen and (max-width: 414px) {
+    .sale_box h4{
+        padding: 20px 0 10px 0;
+        font-size: 20px;
+    }
     .golf .row .col-md-4{
         text-align: center;
     }
