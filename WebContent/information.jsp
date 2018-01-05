@@ -8,9 +8,17 @@
     <meta http-equiv="x-ua-compatible" content="ie=7" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
     <title>公司介绍</title>
-     <link rel="stylesheet" href="css/nheader.css">
     <link rel="stylesheet" href="css/information.css">
     <link rel="icon" type="image/png" href="img/logoH.png" sizes="96*96">
+    <style>
+    .main li:nth-child(2){
+        background: #fff!important;
+        color: #000000!important;
+    }
+    .main li:nth-child(2) a{
+        color: #000000!important;
+    }
+    </style>
 </head>
 <body>
 <%@include file="header.jsp" %>

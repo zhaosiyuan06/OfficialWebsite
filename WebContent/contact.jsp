@@ -10,6 +10,14 @@
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/contact.css">
     <link rel="icon" type="image/png" href="img/logoH.png" sizes="96*96">
+    <style>
+    .main li:nth-child(5){
+        background: #fff!important;
+    }
+    .main li:nth-child(5) a{
+         color: #000000!important;
+    }
+    </style>
 </head>
 <body>
 	<%@include file="header.jsp" %>

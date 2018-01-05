@@ -46,6 +46,25 @@ $(".video_zhezhao img").on("click",function(){
         })
     }
 
+function hover(father,children){
+    $(father).on("mouseenter",function(){
+        var index=$(this).index();
+        $(this).addClass("selected").siblings().removeClass("selected");
+        $(children).eq(index).addClass("block").siblings().removeClass("block");
+    })
+}
+  hover(".service_two .serviceOne .col-md-3 ul.first li",".service_two .serviceOne .col-md-9 ul.second")
+  hover(".service_two .serviceOne .col-md-9 ul.second .second-li"," .service_two .serviceOne .col-md-9 ul.second .third li")
+  hover(" .service_two .serviceTwo .col-md-3 ul.first li",".service_two  .serviceTwo  .col-md-9 ul.second")
+  hover(".service_two  .serviceTwo .col-md-9 ul.second .second-li"," .service_two .serviceTwo .col-md-9 ul.second .third li")
+    $(".service_two .col-md-3 img").on("click",function(){
+        if( $(".service_two .col-md-3 ul.first li").hasClass("block")){
+            $(".service_two .col-md-3 ul.first li").removeClass("block")
+        }else{
+            $(".service_two .col-md-3 ul.first li").addClass("block")
+        }
+
+    })
 //    软件与服务
 //     function xuan(TabBox,lis){
 //         $(TabBox).on("mouseenter",function(){
