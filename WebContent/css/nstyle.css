@@ -1716,12 +1716,13 @@ img {
     width: 70px;
     border: 1px solid #18a3fa;
     color: #18a3fa;
-    border-radius: 15px;
-    padding: 8px 5px;
+    border-radius: 8px;
+    padding: 5px 3px;
     display: inline-block;
     text-align: center;
     float: right;
-
+    cursor: pointer;
+    margin-top: 5px;
 }
 
 .top_box .container .col-md-12 div {
@@ -1770,6 +1771,7 @@ img {
     margin-right: 20px;
     border-radius: 20px;
     cursor: pointer;
+    display:inline-block;
 }
 
 .service_two {
@@ -3083,6 +3085,16 @@ img {
 }
 
 @media screen and (max-width: 414px) {
+    .sale_sec_box .col-md-4 span {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .sale_sec_box .col-md-8{
+        margin-top: 10px;
+    }
+    .sale_sec_box .col-md-8 h1{
+        font-size: 29px;
+    }
     .service_two .col-md-9 {
         min-height: 400px;
     }

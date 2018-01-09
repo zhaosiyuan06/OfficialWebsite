@@ -1,64 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="x-ua-compatible" content="ie=7"/>
+    <meta http-equiv="x-ua-compatible" content="ie=7" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
     <title>北京华诚兴业软件开发有限责任公司</title>
     <link rel="icon" type="image/png" href="img/logoH.png" sizes="96*96">
+    <link rel="stylesheet" href="css/nheader.css">
     <link rel="stylesheet" href="css/nstyle.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <style>
-        .main li:nth-child(1){
-            background: #fff!important;
-        }
-        .main li:nth-child(1) a{
-            color: #000000!important;
-        }
-    </style>
+
 </head>
 <body>
-<!--<%@include file="header.jsp" %>-->
-<!--顶部导航-->
-<div class="top_header">
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                   <img src="img/logoH.png" alt="" style="width:46px;height: 40px;margin-top: 5px;margin-right: 10px">
-                </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav main">
-                        <li><a href="index.jsp">首页</a></li>
-                        <li><a href="information.jsp">公司简介</a></li>
-                        <li><a href="index.jsp#yewu">主营业务</a></li>
-                        <li><a href="products.html">产品</a></li>
-                        <li><a href="contact.jsp">联系我们</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="login.html">登录</a></li>
-                                <li><a href="register.html">注册</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-<!--banner-->
-<div class="banner">
+    <%@include file="header.jsp" %>
+	<div class="banner">
     <div class="wrap" id="wrap">
         <div class="wrapper">
             <div class="product_list" id="product_list">
@@ -192,12 +149,12 @@
                 <div class="con1">
                     <div class="con_box1">
                         <!--下拉框-->
-                        <div class="con_box2 haha">
+                        <div class="con_box2">
                             <div class="box2_img">
                                 <img src="img/yewu2.jpg" alt="">
                                 <div class="zhezhao">
                                     <div class="zhezhao_font">
-                                        <h2>结构生物学图形与动画服务</h2>
+                                        <h2>人工智能的应用</h2>
                                         <p>
                                             随着计算机视觉和人工智能学科的发展,相关研究内容不断拓展、相互覆盖,图像理解既是对计算机视觉研究的延伸和拓展,又是人类智能的研究新领域,渗透着人工智能的研究进程。</p>
                                     </div>
@@ -236,25 +193,39 @@
                         <div class="con_first">
                             <img src="img/yewu2.jpg" alt="">
                         </div>
-                        <h2>结构生物学图形与动画服务</h2>
+                        <h2>人工智能的应用</h2>
                         <p> 生物学与医学的应用：蛋白质的结构预测，蛋白质与蛋白质的相互作用的预测，医学影像学，药物虚拟筛选，基因组医学</p>
                         <p> 工业应用：机器故障预测</p>
                         <p> 金融应用：金融资产价格预测</p>
                         <p> 商业应用：商业知识图谱</p>
+                        <div class="yewu_img">
+                            <div class="img_box">
+                                <span>CNN</span>
+                            </div>
+                            <div class="img_box">
+                                <span>RNN</span>
+                            </div>
+                            <div class="img_box">
+                                <span>Alexnet</span>
+                            </div>
+                            <div class="img_box">
+                                <span>Lnet</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--2-->
                 <div class="con1">
                     <div class="con_box1">
                         <!--下滑框-->
-                        <div class="con_box2 haha">
+                        <div class="con_box2">
                             <div class="box2_img">
                                 <img src="img/yewu1.jpg" alt="">
                                 <div class="zhezhao">
                                     <div class="zhezhao_font">
                                         <h2>虚拟现实相关产品</h2>
                                         <p>
-                                            虚拟现实是多种技术的综合，包括实时三维计算机图形技术，对观察者头、眼和手的跟踪技术，以及触觉/力觉反馈、立体声、网络传输、语音输入输出技术等</p>
+                                            虚拟现实是多种技术的综合，包括实时三维计算机图形技术，广角（宽视野）立体显示技术，对观察者头、眼和手的跟踪技术，以及触觉/力觉反馈、立体声、网络传输、语音输入输出技术等</p>
                                     </div>
                                 </div>
                             </div>
@@ -296,40 +267,40 @@
                             <img src="img/yewu1.jpg" alt="">
                         </div>
                         <h2>虚拟现实相关产品</h2>
-                        <!--<p>医学、娱乐，军事航天、室内设计、房产开发、工业仿真</p>-->
-                        <!--<p>Web3D、游戏、康复训练、数字地球、教育、培训实训、生物力学</p>-->
-                        <!--<div class="yewu_img">-->
-                        <!--<div class="img_box">-->
-                        <!--<span>多感知性</span>-->
-                        <!--&lt;!&ndash;<img src="img/ye1.jpg" alt="">&ndash;&gt;-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>存在感</span>-->
-                        <!--&lt;!&ndash;<img src="img/ye1.jpg" alt="">&ndash;&gt;-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>交互性</span>-->
-                        <!--&lt;!&ndash;<img src="img/ye1.jpg" alt="">&ndash;&gt;-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>自主性</span>-->
-                        <!--&lt;!&ndash;<img src="img/ye1.jpg" alt="">&ndash;&gt;-->
-                        <!--</div>-->
-                        <!--</div>-->
+                        <p>医学、娱乐，军事航天、室内设计、房产开发、工业仿真</p>
+                        <p>Web3D、游戏、康复训练、数字地球、教育、培训实训、生物力学</p>
+                        <div class="yewu_img">
+                            <div class="img_box">
+                                <span>多感知性</span>
+                                <!--<img src="img/ye1.jpg" alt="">-->
+                            </div>
+                            <div class="img_box">
+                                <span>存在感</span>
+                                <!--<img src="img/ye1.jpg" alt="">-->
+                            </div>
+                            <div class="img_box">
+                                <span>交互性</span>
+                                <!--<img src="img/ye1.jpg" alt="">-->
+                            </div>
+                            <div class="img_box">
+                                <span>自主性</span>
+                                <!--<img src="img/ye1.jpg" alt="">-->
+                            </div>
+                        </div>
                     </div>
 
                 </div>
                 <!--3-->
                 <div class="con1">
                     <div class="con_box1">
-                        <div class="con_box2 haha">
+                        <div class="con_box2">
                             <div class="box2_img">
                                 <img src="img/yewu3.jpg" alt="">
                                 <div class="zhezhao">
                                     <div class="zhezhao_font">
-                                        <h2>办公自动化与电子商务</h2>
+                                        <h2>智能文本处理解决方案</h2>
                                         <p>
-                                            试图找出自然语言的规律，建立运算模型，最终让电脑能够像人类般分析，理解和处理自然语言。这一种是计算机科学与人工智能领域正旺的科技领域，是人工智能的难点和重点之一。</p>
+                                            基本目的试图找出自然语言的规律，建立运算模型，最终让电脑能够像人类般分析，理解和处理自然语言。这一种是计算机科学与人工智能领域交叉的目前势头正旺的科技领域，是人工智能的最难点和最重点之一。</p>
                                     </div>
                                 </div>
                             </div>
@@ -366,253 +337,44 @@
                         <div class="con_first">
                             <img src="img/yewu3.jpg" alt="">
                         </div>
-                        <h2>办公自动化与电子商务</h2>
-                        <!--<p>智能是一个感觉、回忆、思维、语言、行为的智能化过程</p>-->
-                        <!--<p>文本是计算机的一种文档类型，是记载和储存文字信息的一种工具</p>-->
-                        <!--<div class="yewu_img">-->
-                        <!--<div class="img_box">-->
-                        <!--<span>信息检索</span>-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>信息抽取</span>-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>信息过滤</span>-->
-                        <!--</div>-->
-                        <!--<div class="img_box">-->
-                        <!--<span>信息服务</span>-->
-                        <!--</div>-->
-                        <!--</div>-->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--软件与服务2-->
-    <div class="service_two">
-        <h2>产品购买</h2>
-        <div class="container serviceOne">
-            <div class="col-md-3">
-                <img src="img/mianbaoxie.png" alt="">
-                <ul class="first">
-                    <li>教育软件</li>
-                    <li>工业培训软件</li>
-                    <li>虚拟装配与数字样机软件</li>
-                    <li>工业生产规划与管理软件</li>
-                    <li>教育软件</li>
-                    <li>工业培训软件</li>
-                    <li>虚拟装配与数字样机软件</li>
-                    <li>工业生产规划与管理软件</li>
-                </ul>
-            </div>
-            <div class="col-md-9">
-                <ul class="second block">
-                    <li class="second-li">中学教育</li>
-                    <li  class="second-li">高等教育</li>
-                    <ul class="third">
-                        <li class="block">
-                            <span class="third-span">
-                                <a href="sale.html"><div>物理学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="sale.html"><div>化学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="sale.html"><div>生物学</div></a>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="third-span">
-                                <a href="sale.html"><div>化学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="sale_sec.html"><div>生物学与医学</div></a>
-                                <a href="sale_sec.html"><span>结构生物学</span></a>
-                                <a href="sale_sec.html"><span>生物化学</span></a>
-                                <a href="sale_sec.html"><span>分子生物学</span></a>
-                                <a href="sale_sec.html"><span>细胞生物学</span></a>
-                                <a href="sale_sec.html"><span>发育生物学</span></a>
-                                <a href="sale_sec.html"><span>神经生物学</span></a>
-                                <a href="sale_sec.html"><span>神经解剖学</span></a>
-                                <a href="sale_sec.html"><span>药理学</span></a>
-                                <a href="sale_sec.html"><span>动物学</span></a>
-                            </span>
-
-                            <span class="third-span">
-                                <a href="sale.html"><div>地球科学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="sale.html"><div>机械工程</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="sale.html"><div>化学工程</div></a>
-                            </span>
-                        </li>
-                    </ul>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-            </div>
-        </div>
-        <h2>产品服务</h2>
-        <div class="container serviceTwo">
-            <div class="col-md-3">
-                <img src="img/mianbaoxie.png" alt="">
-                <ul class="first">
-                    <li>教育软件</li>
-                    <li>工业培训软件</li>
-                    <li>虚拟装配与数字样机软件</li>
-                    <li>工业生产规划与管理软件</li>
-                    <li>教育软件</li>
-                    <li>工业培训软件</li>
-                    <li>虚拟装配与数字样机软件</li>
-                    <li>工业生产规划与管理软件</li>
-                </ul>
-            </div>
-            <div class="col-md-9">
-                <ul class="second block">
-                    <li class="second-li">中学教育</li>
-                    <li  class="second-li">高等教育</li>
-                    <ul class="third">
-                        <li class="block">
-                            <span class="third-span">
-                                <a href="#"><div>物理学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>化学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>生物学</div></a>
-                            </span>
-
-                        </li>
-                        <li>
-                            <span class="third-span">
-                                <a href="#"><div>化学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>生物学与医学</div></a>
-                                <a href="#"><span>结构生物学</span></a>
-                                <a href="#"><span>生物化学</span></a>
-                                <a href="#"><span>分子生物学</span></a>
-                                <a href="#"><span>细胞生物学</span></a>
-                                <a href="#"><span>发育生物学</span></a>
-                                <a href="#"><span>神经生物学</span></a>
-                                <a href="#"><span>神经解剖学</span></a>
-                                <a href="#"><span>药理学</span></a>
-                                <a href="#"><span>动物学</span></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>生物学与医学</div></a>
-                                <a href="#"><span>结构生物学</span></a>
-                                <a href="#"><span>生物化学</span></a>
-                                <a href="#"><span>分子生物学</span></a>
-                                <a href="#"><span>细胞生物学</span></a>
-                                <a href="#"><span>发育生物学</span></a>
-                                <a href="#"><span>神经生物学</span></a>
-                                <a href="#"><span>神经解剖学</span></a>
-                                <a href="#"><span>药理学</span></a>
-                                <a href="#"><span>动物学</span></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>生物学与医学</div></a>
-                                <a href="#"><span>结构生物学</span></a>
-                                <a href="#"><span>生物化学</span></a>
-                                <a href="#"><span>分子生物学</span></a>
-                                <a href="#"><span>细胞生物学</span></a>
-                                <a href="#"><span>发育生物学</span></a>
-                                <a href="#"><span>神经生物学</span></a>
-                                <a href="#"><span>神经解剖学</span></a>
-                                <a href="#"><span>药理学</span></a>
-                                <a href="#"><span>动物学</span></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>地球科学</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>机械工程</div></a>
-                            </span>
-                            <span class="third-span">
-                                <a href="#"><div>化学工程</div></a>
-                            </span>
-                        </li>
-                    </ul>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-                <ul class="second">
-                    <a href="#"><span class="look">查看软件详情</span></a>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--高尔夫器材-->
-    <div class="shop_box">
-        <h4>高尔夫辅助器材与软件</h4>
-        <div class="shop_module">
-            <div class="container">
-                <div class="col-md-4">
-                    <a href="shop.html">
-                        <img src="img/g4.jpg" alt="">
-                        <div class="zhe1">
-                            <img src="img/jia.png" alt="">
+                        <h2>智能文本处理解决方案</h2>
+                        <p>智能是一个感觉、回忆、思维、语言、行为的智能化过程</p>
+                        <p>文本是计算机的一种文档类型，是记载和储存文字信息的一种工具</p>
+                        <div class="yewu_img">
+                            <div class="img_box">
+                                <span>信息检索</span>
+                            </div>
+                            <div class="img_box">
+                                <span>信息抽取</span>
+                            </div>
+                            <div class="img_box">
+                                <span>信息过滤</span>
+                            </div>
+                            <div class="img_box">
+                                <span>信息服务</span>
+                            </div>
                         </div>
-                    </a>
-                    <a href="shop.html">
-                        <h5>高尔夫训练器材</h5>
-                        <p>这款高尔夫球的训练器材的外包装基本定了尺寸大小，30*18*120，铝合金轮毂外包装，可以随身携带，高尔夫球爱好者可以把这款训练器材放在汽车的后背箱里带到高尔夫球的练习场，非常方便.</p>
-                        <p>本产品分为教练版本与个人版本。本公司是这一运动器材的华北地区代理商。华北地区的高尔夫球爱好者可以向本公司购买这一器材，有购买意向者，请登录注册或者联系网站客服。</p>
-                        <a href="shop.html" style="display: inline-block;text-align:right;padding-right: 20px;padding-bottom: 6px" class="cha_xiang">查看详情</a>
-                    </a>
-                </div>
-                <div class="col-md-8">
-                    <img src="img/g1.jpg" alt="" class="imgBack">
-                    <div class="zhe">
-                        <img src="img/play.png" alt="" data-src="videos/1-1.mp4">
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <!--播放界面-->
-    <div class="video_zhezhao">
-        <div class="videoplay_Box">
-            <video src="" controls="controls" width="100%" height="100%" class="video"></video>
-        </div>
-        <img src="img/close.png" alt="">
     </div>
     <!--公司简介-->
-    <!--<div class="jianjie_box" id="jianjie">-->
-        <!--<div class="jianjie_container">-->
-            <!--<span>华诚兴业</span>-->
-            <!--<h2>北京华诚兴业软件开发有限责任公司</h2>-->
-            <!--<p>-->
-                <!--北京华诚兴业软件开发有限责任公司是2014年10月28日成立的公司，致力于通过人工智能和深度学习进行开发，让人工智能的研究成果应用各个行业，并为行业提供一些特殊的智能服务。公司的开发方向是基因组医学，图像处理，医学影像学，虚拟现实技术，信息技术与人工智能。</p>-->
-            <!--<p>-->
-                <!--北京华诚兴业软件开发有限责任公司主要领导和技术骨干均有在国内知名高校、大型企业工作经验。具有一批经验丰富的技术研发、系统设计、软硬件开发的人员，在国内外相关领域具有较大影响力。-->
-                <!--北京华诚兴业软件开发有限责任公司立足人工智能的研发平台，起到推动科普生活化，生活科技化，科技产业化的理念，让科技前端的人才真正服务于大众。-->
-                <!--<a href="information.html">更多>>></a>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="jianjie_box" id="jianjie">
+        <div class="jianjie_container">
+            <span>华诚兴业</span>
+            <h2>北京华诚兴业软件开发有限责任公司</h2>
+            <p>
+                北京华诚兴业软件开发有限责任公司是2014年10月28日成立的公司，致力于通过人工智能和深度学习进行开发，让人工智能的研究成果应用各个行业，并为行业提供一些特殊的智能服务。公司的开发方向是基因组医学，图像处理，医学影像学，虚拟现实技术，信息技术与人工智能。</p>
+            <p>
+                北京华诚兴业软件开发有限责任公司主要领导和技术骨干均有在国内知名高校、大型企业工作经验。具有一批经验丰富的技术研发、系统设计、软硬件开发的人员，在国内外相关领域具有较大影响力。
+                北京华诚兴业软件开发有限责任公司立足人工智能的研发平台，起到推动科普生活化，生活科技化，科技产业化的理念，让科技前端的人才真正服务于大众。
+            <a href="information.html">更多>>></a>
+        </div>
+    </div>
 </div>
+
 <footer>
     <div class="footer_box">
         <div class="footer_content">
@@ -641,8 +403,7 @@
                     </ul>
                     <div class="copyright">
                         <p class="ps">北京市丰台区丰台北路32号院华胜写字楼A座107</p>
-                        <p>Copyright © 2012-2017 北京华诚兴业软件开发有限责任公司,<a href="http://www.miibeian.gov.cn" target="_Blank"
-                                                                     style="color:#707070">京ICP备17057156</a></p>
+                        <p>Copyright © 2012-2017 北京华诚兴业软件开发有限责任公司,<a href="http://www.miibeian.gov.cn" target="_Blank" style="color:#707070">京ICP备17057156</a></p>
                     </div>
                 </div>
                 <div class="footer_second">
@@ -666,34 +427,47 @@
                             </div>
                         </div>
                     </div>
+                    <div class="contact_one">
+                        <span class="shangwu">人才招聘：</span>
+                        <div class="right">
+                            <div class="top">
+                                <a href="#" class="email"></a>
+                                <span>physicsart@163.com</span>
+                            </div>
+                            <div class="top">
+                                <a href="#" class="lianjie"></a>
+                                <span>招募专栏</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </footer>
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 <script type="text/javascript">
     (function () {
         var $wrap = $("#wrap"),
-            $pages = $("#product_list").find(".product_box"),
-            $controlBox = $("#control_box"),
-            $productBtns = $("#product_btns"),
-            $controls = $controlBox.find("a"),
-            $icLine = $("#ic_line"),
-            $listTops = $("#list_top").find("li"),
-            $hNav = $("#h_nav"),
-            $hNavli = $hNav.find("li"),
-            $hSubnav = $("#h_subnav"),
-            $hSubDD = $hSubnav.find("dd"),
-            $hBdot = $("#h_bdot"),
-            $hSdot = $("#h_sdot"),
-            $footer = $("#footer"),
-            $bgs = $pages.find(".bg_box img"),
-            $mainBoxs = $pages.find(".main_box"),
-            $moreNav = $("#more_nav"),
-            $rptBg = $("#rpt_bg");
+                $pages = $("#product_list").find(".product_box"),
+                $controlBox = $("#control_box"),
+                $productBtns = $("#product_btns"),
+                $controls = $controlBox.find("a"),
+                $icLine = $("#ic_line"),
+                $listTops = $("#list_top").find("li"),
+                $hNav = $("#h_nav"),
+                $hNavli = $hNav.find("li"),
+                $hSubnav = $("#h_subnav"),
+                $hSubDD = $hSubnav.find("dd"),
+                $hBdot = $("#h_bdot"),
+                $hSdot = $("#h_sdot"),
+                $footer = $("#footer"),
+                $bgs = $pages.find(".bg_box img"),
+                $mainBoxs = $pages.find(".main_box"),
+                $moreNav = $("#more_nav"),
+                $rptBg = $("#rpt_bg");
         var data = {
             pLength: $pages.length,
             curP: 0,
@@ -718,7 +492,7 @@
         //页面自缩放
         var resize = function () {
             var w = $(window).width(),
-                h = $(window).height();
+                    h = $(window).height();
             $wrap.height(h);
             $moreNav.height(h);
             if (w / h < 1920 / 1080) {
@@ -732,39 +506,48 @@
             if (isCss3) {
                 document.getElementById("wrap").className = "wrap big_view xbig";
                 switch (true) {
-                    case w >= 1920: {
+                    case w >= 1920:
+                    {
                         cls = "";
                         break;
                     }
-                    case w < 1920 && w >= 1680: {
+                    case w < 1920 && w >= 1680:
+                    {
                         cls = "small9";
                         break;
                     }
-                    case w < 1680 && w >= 1600: {
+                    case w < 1680 && w >= 1600:
+                    {
                         cls = "small8";
                         break;
                     }
-                    case w < 1600 && w >= 1536: {
+                    case w < 1600 && w >= 1536:
+                    {
                         cls = "small7";
                         break;
                     }
-                    case w < 1536 && w >= 1440: {
+                    case w < 1536 && w >= 1440:
+                    {
                         cls = "small6";
                         break;
                     }
-                    case w < 1440 && w >= 1366: {
+                    case w < 1440 && w >= 1366:
+                    {
                         cls = "small5";
                         break;
                     }
-                    case w < 1366 && w >= 1280: {
+                    case w < 1366 && w >= 1280:
+                    {
                         cls = "small4";
                         break;
                     }
-                    case w < 1280 && w >= 1024: {
+                    case w < 1280 && w >= 1024:
+                    {
                         cls = "small3";
                         break;
                     }
-                    case w < 1024: {
+                    case w < 1024:
+                    {
                         cls = "small2";
                         break;
                     }
@@ -775,15 +558,18 @@
                 $productBtns.find(".content").attr("class", "content " + cls);
             } else {
                 switch (true) {
-                    case w >= 1600: {
+                    case w >= 1600:
+                    {
                         cls = "big_view";
                         break;
                     }
-                    case w < 1600 && w >= 1440: {
+                    case w < 1600 && w >= 1440:
+                    {
                         cls = "mid_view";
                         break;
                     }
-                    case w < 1440: {
+                    case w < 1440:
+                    {
                         cls = "small_view";
                         break;
                     }
@@ -909,7 +695,7 @@
 </script>
 <script>
     var _hmt = _hmt || [];
-    (function () {
+    (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?206a5bcb913ff3efc62aefbe2795773d";
         var s = document.getElementsByTagName("script")[0];
