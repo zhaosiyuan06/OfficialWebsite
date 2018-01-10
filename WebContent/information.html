@@ -6,53 +6,57 @@
     <title>公司介绍</title>
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/information.js"></script>
+    <link rel="icon" type="image/png" href="img/logoH.png" sizes="96*96">
     <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/nstyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .main li:nth-child(2){
+            background: #fff!important;
+        }
+        .main li:nth-child(2) a{
+            color: #000000!important;
+        }
+    </style>
 </head>
 <body>
+
 <!--顶部导航-->
-<div class="top-header">
-    <!--顶部面包屑开始-->
-    <a href="index.html">
-        <div class="shouye"></div>
-    </a>
-    <a href="#" class="media">
-        <div class="mianbaoxie"></div>
-        <ul>
-            <li id="jianjie">公司简介</li>
-            <li id="yewus">主营业务
-                <img src="img/open.png" alt="">
-                <div>虚拟现实相关产品</div>
-                <div>图像理解解决方案</div>
-                <div>智能文本处理解决方案</div>
-            </li>
-            <li id="product">产品
-                <img src="img/open.png" alt="">
-                <div link="index.html">虚拟现实</div>
-                <div>医疗影像理解</div>
-            </li>
-            <li id="contact">联系我们</li>
-        </ul>
+<div class="top_header">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="img/logoH.png" alt="" style="width:46px;height: 40px;margin-top: 5px;margin-right: 10px">
+                </div>
 
-    </a>
-    <!--顶部面包屑结束-->
-    <div class="header_box">
-        <span><a href="index.html" style="text-decoration: none;color:white;">首页</a></span>
-			 <span><a href="information.html" style="text-decoration: none;color:white;">公司简介</a></span>
-            <span><a href="index.html#yewu" style="text-decoration: none;color:white;">主营业务</a>
-                 <ul>
-                     <li><a href="products.html#yewu" style="text-decoration: none;color:white;">虚拟现实相关产品</a></li>
-                     <li><a href="products.html#yewu" style="text-decoration: none;color:white;">图像理解解决方案</a></li>
-                     <li><a href="products.html#yewu" style="text-decoration: none;color:white;">智能文本处理解决方案</a></li>
-                 </ul>
-            </span>
-              <span class="main"><a href="products.html" style="text-decoration: none;color:white;">产品</a>
-                 <ul>
-                     <li><a href="products.html" style="text-decoration: none;color:white;">虚拟现实</a></li>
-                     <li><a href="products.html" style="text-decoration: none;color:white;">医疗影像理解</a></li>
-                 </ul>
-            </span>
-        <span><a href="contact.html" style="text-decoration: none;color:white;">联系我们</a></span>
-
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main">
+                        <li><a href="index.jsp">首页</a></li>
+                        <li><a href="information.jsp">公司简介</a></li>
+                        <li><a href="index.jsp#yewu">主营业务</a></li>
+                        <li><a href="products.html">产品</a></li>
+                        <li><a href="contact.jsp">联系我们</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html">登录</a></li>
+                                <li><a href="register.html">注册</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
 </div>
 <!--banner-->
