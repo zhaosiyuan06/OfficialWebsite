@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2017/7/18.
- */
 $(function () {
     function myBrowser(){
         var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
