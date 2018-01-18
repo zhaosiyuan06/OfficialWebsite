@@ -243,7 +243,35 @@ img {
     top: 50%;
     left: 50%;
 }
+.main_content_box{
+    margin-bottom: 70px;
+}
+.main_content_box .item h2{
+    text-align: center;
+    padding: 70px 0 50px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 24px;
+}
+.main_content_box .container .yewu_top_box .col-md-6{
+    /*height: 100%;*/
+    padding-right: 0;
+}
+.main_content_box .container .row .col-md-6:nth-child(1){
+    padding-left: 10px;
 
+}
+.main_content_box .container .row .col-md-6:nth-child(2){
+    padding-right: 20px;
+}
+.main_content_box .container .yewu_top_box .col-md-6 img{
+    width: 100%;
+    height: 100%;
+}
+.main_content_box .container .yewu_top_box p{
+    font-size: 14px;
+    padding-top: 10px;
+}
 .product_box .content {
     width: 1000px;
     height: 100%;
@@ -1452,9 +1480,8 @@ img {
 
 .yewu_box {
     width: 100%;
-    height: 800px;
-    border-top: 1px solid #ccc;
-    margin-bottom: 100px;
+    height: 600px;
+    /*margin-bottom: 100px;*/
 }
 
 .shop_box {
@@ -1794,7 +1821,7 @@ img {
 .service_two h2 {
     text-align: center;
     padding-bottom: 50px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     color: #fff;
     font-size: 24px;
 }
@@ -1964,28 +1991,38 @@ img {
 }
 
 .yewu_content .yewu-bottom .con1 {
-    width: 33.3%;
+    /*width: 33.3%;*/
     height: 100%;
-    float: left;
     position: relative;
+    /*padding: 0px 50px;*/
+    display: inline-block;
 }
 
 .yewu_content .yewu-bottom .con1 .con_box1 {
-    width: 80%;
-    height: 85%;
+    padding: 0 20px;
+    /*width: 80%;*/
+    /*height: 85%;*/
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    /*-moz-box-shadow: 0 0 10px rgba(14, 5, 10, .15);*/
+    /*-webkit-box-shadow: 0 0 10px rgba(14, 5, 10, .15);*/
+    /*box-shadow: 0 0 10px rgba(14, 5, 10, .15);*/
+    /*border: 1px solid Lightgrey;*/
+    overflow: hidden;
+    display: inline-block;
+
+}
+.yewu_content .yewu-bottom .con1 .con_box1 .ai{
     -moz-box-shadow: 0 0 10px rgba(14, 5, 10, .15);
     -webkit-box-shadow: 0 0 10px rgba(14, 5, 10, .15);
     box-shadow: 0 0 10px rgba(14, 5, 10, .15);
     border: 1px solid Lightgrey;
-    overflow: hidden;
+    height: 80%;
 }
-
 .con_box1 .yewu_img .img_box span {
     line-height: 35px;
     text-align: center;
@@ -1999,7 +2036,7 @@ img {
 
 .yewu_content .yewu-bottom .con1 .con_box1 .con_first {
     width: 100%;
-    height: 40%;
+    height: 240px;
     background: white;
     position: relative;
 }
@@ -2064,11 +2101,12 @@ img {
 }
 
 .yewu_content .yewu-bottom .con1 .con_box2 {
+    padding: 0 20px;
     z-index: 9;
     background: rgb(255, 255, 255);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5FFFFFF, endColorstr=#E5FFFFFF);
     width: 100%;
-    height: 100%;
+    height: 80%;
     position: absolute;
     left: 0px;
     top: -100%;
@@ -2832,7 +2870,7 @@ img {
     }
 
     .yewu_content {
-        width: 80%;
+        width:100%;
         height: 100%;
         margin: 0 auto;
     }
@@ -2876,7 +2914,7 @@ img {
 
 @media screen and (max-width: 1366px) {
     .yewu_content {
-        width: 80%;
+        /*width: 80%;*/
         height: 100%;
         margin: 0 auto;
     }
@@ -3002,10 +3040,13 @@ img {
     }
 
     .yewu_box {
-        height: 2300px;
+        height: 2000px;
+        padding: 20px 0;
     }
 
     .yewu_content .yewu-bottom .con1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
         width: 100%;
     }
 
@@ -3093,6 +3134,12 @@ img {
 }
 
 @media screen and (max-width: 414px) {
+    .yewu_content .yewu-bottom .con1 .con_box2{
+        height: 100%;
+    }
+    .yewu_content .yewu-bottom .con1 .con_box1 .ai{
+        height: 100%;
+    }
     .sale_sec_box .col-md-4 span {
         line-height: 20px;
         font-size: 13px;
@@ -3288,6 +3335,7 @@ img {
         width: 100%;
         height: 500px;
         margin-top: -40px;
+        margin-left: 0px;
     }
 
     .yewu_content .yewu-bottom .con1 .con_box1 p {
@@ -3300,7 +3348,7 @@ img {
     .yewu_content .yewu-bottom .con1 .con_box1 h2 {
         font-size: 16px;
         line-height: 30px;
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .yewu_content .yewu-bottom .con1 .con_box1 .yewu_img {
@@ -3310,7 +3358,7 @@ img {
 
     .yewu_content .yewu-bottom .con1 .con_box1 {
         width: 100%;
-        height: 85%;
+        /*height: 85%;*/
     }
 
     .yewu_content .yewu-bottom .con1 .con_box2 .box2_img .zhezhao .zhezhao_font h2 {
@@ -3354,6 +3402,9 @@ img {
 }
 
 @media screen and (max-width: 414px) {
+    .yewu_content .yewu-bottom .con1{
+        margin-bottom: 30px;
+    }
     .yewu_content .yewu-bottom .con1 .con_box2 .box2_img .zhezhao .zhezhao_font p {
         font-size: 10px;
         line-height: 16px;
