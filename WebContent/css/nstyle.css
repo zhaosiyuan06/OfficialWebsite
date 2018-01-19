@@ -132,7 +132,46 @@ img {
     transform: scale(0.95, 0.95);
     -webkit-transform: scale(0.95, 0.95);
 }
-
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px!important;
+    z-index: 0;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    overflow: hidden;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+.swiper-slide div{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -100px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 8px #fff;
+}
 /*导航*/
 ::-webkit-scrollbar {
     width: 4px;
@@ -157,9 +196,9 @@ img {
     width: 100%;
     background: #000000;
     border-bottom: 2px solid #666;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 66;
 }
 
@@ -203,6 +242,7 @@ img {
 /*.active {*/
     /*background: #fff;*/
 /*}*/
+/*banner*/
 
 .product_list {
     position: relative;
