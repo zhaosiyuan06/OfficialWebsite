@@ -1,5 +1,5 @@
 # 公司官网
-![image](https://github.com/zhaosiyuan06/OfficialWebsite/blob/master/WebContent/img/LOGO.png)
+![image](https://github.com/zhaosiyuan06/OfficialWebsite/blob/master/WebContent/img/LOGO.png)<br>
 👉 官网地址: http://hcxyrjkf.cn
 ## 主要技术点
 ###### 1.响应式布局（采用CSS媒体查询（Media Query）纯手写代码，不借用任何响应式框架，有效适配手机、平板、PC设备）
